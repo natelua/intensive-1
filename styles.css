@@ -1,0 +1,190 @@
+
+        body {
+            margin: 0;
+            font-family: impact;
+            background-color: black;
+            line-height: 1.5;
+        }
+        
+        nav,
+        main>section {
+            overflow: auto;
+        }
+        
+        main>section {
+            min-height: 100vh;
+        }
+        /* Style the nav bar */
+        
+        #nav {
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 1em;
+            background-color: Black;
+            color: rgb(46, 144, 236);
+            display: flex;
+        }
+        
+        nav h1,
+        ul {
+            margin: 0
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgb(44, 219, 235);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul a {
+            padding: 1em;
+            color: rgb(42, 236, 123);
+        }
+        
+        nav ul a:hover {
+            color: White;
+        }
+        
+        #home {
+            background-color: black;
+            background-image: url(./assets/creek.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4em;
+            color: rgb(60, 236, 113);
+        }
+        
+        #home div {
+            position: relative;
+            left: -120px;
+            top: 120px;
+        }
+        
+        #home h2,
+        #home p {
+            margin: 0;
+            text-shadow: 0 0 20px #000000;
+        }
+        
+        #type {
+            background-color: black;
+        }
+        
+        #type ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        #type h2 {
+            margin: 1em;
+            font-size: 3em;
+            text-align: center;
+            color: rgb(48, 170, 241);
+        }
+        
+        .card {
+            width: 400px;
+            margin: 1em;
+            background-color: rgb(46, 248, 214);
+            box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+        }
+        
+        .card img {
+            width: 100%;
+        }
+        
+        .card h3 {
+            font-size: 2em;
+        }
+        
+        .card h3,
+        .card p {
+            margin: 1rem;
+        }
+        
+        ul {
+            display: flex;
+        }
+        
+        #about {
+            background-color: rgb(238, 72, 22);
+            background-image: url(assets/field.jpeg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(231, 35, 21);
+        }
+        
+        #about div {
+            background-color: black;
+            padding: 2em;
+            width: 75%;
+            max-width: 700px;
+            opacity: 75%;
+        }
+        
+        #req h2 {
+            font-size: 4em;
+            margin: 0 0 1rem 0;
+            text-align: center;
+        }
+        
+        #req {
+            background-color: black;
+            display: flex;
+            color: rgb(238, 224, 34);
+            background-image: url();
+            background-size: cover;
+        }
+        
+        #req div {
+            display: flex;
+            justify-content: center;
+            width: 75%;
+            margin: auto;
+        }
+        
+        #req h2,
+        #req p {
+            margin: 0 0 1rem 0;
+        }
+        
+        #req h2 {
+            font-size: 2em;
+        }
+        
+        #req >div>div:nth-child(1) {
+            flex: 3;
+            margin: 0 2em 0 0;
+        }
+        
+        #req>div>div:nth-child(2) {
+            flex: 2;
+        }
+        
+        #req>div img {
+            width: 100%;
+            box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+        }
+        
+        #contact {
+            background-color: rgb(85, 94, 226);
+        }
+        
+        .a {
+            color: rgb(208, 238, 40);
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
