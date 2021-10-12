@@ -55,7 +55,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 4em;
             color: rgb(60, 236, 113);
         }
         
@@ -63,6 +62,7 @@
             position: relative;
             left: -120px;
             top: 120px;
+            font-size: 4em;
         }
         
         #home h2,
