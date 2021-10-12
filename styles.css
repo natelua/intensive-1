@@ -14,8 +14,7 @@
         main>section {
             min-height: 100vh;
         }
-        /* Style the nav bar */
-        
+
         #nav {
             justify-content: space-between;
             align-items: baseline;
@@ -51,7 +50,7 @@
         
         #home {
             background-color: black;
-            background-image: url(./assets/creek.jpg);
+            background-image: url(./assets/field.jpeg);
             background-size: cover;
             display: flex;
             justify-content: center;
@@ -117,7 +116,7 @@
         
         #about {
             background-color: rgb(238, 72, 22);
-            background-image: url(assets/field.jpeg);
+            background-image: url(assets/creek.jpg);
             background-size: cover;
             display: flex;
             justify-content: center;
