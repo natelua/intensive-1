@@ -62,7 +62,7 @@
             position: relative;
             left: -120px;
             top: 120px;
-            font-size: 4em;
+            font-size: 2em;
         }
         
         #home h2,
@@ -131,12 +131,13 @@
             max-width: 700px;
             opacity: 75%;
         }
-        
+/*         
         #req h2 {
             font-size: 4em;
-            margin: 0 0 1rem 0;
-            text-align: center;
-        }
+            /* margin: 0 0 1rem 0;
+          }  */
+        
+        
         
         #req {
             background-color: black;
@@ -144,35 +145,26 @@
             color: rgb(238, 224, 34);
             background-image: url();
             background-size: cover;
+            justify-content: center;
+            align-items: center;
         }
         
         #req div {
-            display: flex;
-            justify-content: center;
+            /* display: flex; */
+            
             width: 75%;
             margin: auto;
         }
         
-        #req h2,
-        #req p {
-            margin: 0 0 1rem 0;
-        }
-        
+/*         
         #req h2 {
             font-size: 3em;
-        }
-        
-        #req >div>div:nth-child(1) {
-            flex: 3;
-            margin: 0 2em 0 0;
-        }
-        
-        #req>div>div:nth-child(2) {
-            flex: 2;
-        }
+        } */
+    
         
         #req>div img {
-            width: 100%;
+            display: flex;
+            width: 450px;
             box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
         }
         
